@@ -1,0 +1,75 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .idc-info .idc-container {
+        padding-bottom: 180px;
+    }
+    .idc-footer .idc-container {
+        padding-top: 265px;
+    }
+}
+
+@media (max-width: 699px) {
+    .idc-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 42.2vw;
+    }
+
+    /* ******about**** */
+
+    .idc-about .idc-text {
+        margin-top: 15px;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 40px;
+        padding-bottom: 24vw;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .idc-info ul li::before {
+        top: 8px;
+    }
+    .idc-info p:last-child {
+        padding-right: 10px;
+    }
+
+    /* ***********************footer****************** */
+    .idc-footer .idc-container {
+        padding-top: 48vw;
+        padding-bottom: 50px;
+    }
+    .idc-footer .idc-tomato {
+        top: -34%;
+    }
+    .idc-footer .idc-ps {
+        font-size: 8px;
+        line-height: 9px;
+    }
+}
